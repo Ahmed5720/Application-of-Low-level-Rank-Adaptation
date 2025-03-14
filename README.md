@@ -2,7 +2,7 @@
 
 
 ## Overview
-This project explores the differences between standard fine-tuning and Low-Rank Adaptation (LoRA) when applied to transformer-based models. The goal is to analyze the trade-offs in computational efficiency, training time, and performance while fine-tuning a language model.
+In this project, I attempt to utilize Low-Rank Adaptation based on the [LORA paper](https://arxiv.org/abs/2106.09685) to effieciently fine-tune a transformer model for the task of sentiement classification and study the tradeoffs in computational efficiency, training time, and performance compared to standard finetuning. I am using the implementation of LORA from the [PEFT](https://github.com/huggingface/peft) library available at [HuggingFace](https://huggingface.co/). 
 
 ## Project Structure
 ```
